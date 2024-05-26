@@ -15,10 +15,10 @@
     <nav>
         <h1>A. Carmina Llamas-Valenzuela</h1>
         <ul>
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="#about" class="nav-link">Sobre mí</a></li>
+            <li><a href="#skills" class="nav-link">Habilidades</a></li>
+            <li><a href="#projects" class="nav-link">Proyectos</a></li>
+            <!-- <li><a href="#contact" class="nav-link">Contact</a></li> -->
         </ul>
         <button class="burger-menu" id="burger-menu">
             <ion-icon class="bars" name="menu-outline"></ion-icon>
@@ -27,65 +27,103 @@
 
     <!-- Sección Hero -->
     <section class="hero" id="About">
+        <img src="assets/images/header-illustration-light.svg" alt="" class="hero-img3">
         <!-- Imagen de mi en imagenes -->
         <img src="assets/images/me.jpg" alt="" class="hero-img" loading="lazy">
-        <di class="bio animate__animated animate__shakeX">
-            <h2 class="bio-title">About Me</h2>
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">Sobre mí</h2>
             <p class="bio-text">
-                I'm a web developer with a passion for creating beautiful and functional websites. I specialize in front-end development and have experience working with modern frameworks like React and Vue. I'm always looking to learn new technologies and improve my skills. Let's work together!
+                Soy un desarrollador web apasionado por crear sitios web hermosos y funcionales. Me especializo en desarrollo front-end. Siempre estoy buscando aprender nuevas tecnologías y mejorar mis habilidades. ¡Vamos a trabajar juntos!
             </p>
+        </div>
+
+        <div class="background-img">
+            <img src="assets/images/hero-media-illustration-dark.svg" alt="" class="hero-img2">
         </div>
     </section>
 
     <!-- Sobre mí -->
     <section class="more-about">
-        <h2>More about me</h2>
+        <h2>Más sobre mí</h2>
         <p>
-            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget nunc ultricies ultricies. Donec auctor, nunc nec
+            Ingeniera apasionada por la tecnología, con una destacada trayectoria en el desarrollo de sistemas web y un enfoque interdisciplinario. Poseo un título en Ingeniería Geodésica otorgado por la Universidad Autónoma de Sinaloa (UAS). Mi participación en la concepción del Equipo para la Gestión de Expediciones Oceanográficas, como parte del proyecto CIGoM, refleja mi compromiso con la innovación y la excelencia en el campo.
+            <br>
+            <br>
+            Mi experiencia abarca el dominio de herramientas como PHP, Laravel, Python y JavaScript, así como la gestión eficiente de bases de datos, incluyendo MySQL y Elasticsearch. Adicionalmente, he realizado un bootcamp en Technolochicas Pro, donde fortalecí mis competencias en Desarrollo Frontend.
+            <br>
+            <br>
+            Actualmente, me encuentro inmersa en el continuo enriquecimiento de mis habilidades, destacando mi dedicación al estudio del Aprendizaje Automático, como parte del programa de Maestría en Ciencias en Procesamiento de la Información en la Universidad Autónoma de Zacatecas (UAZ), donde estoy a punto de concluir mi formación académica.
         </p>
-
     </section>
 
     <!-- Sección Habilidades -->
     <section class="skills" id="skills">
-        <h2 class="skill-header">My Top Skills</h2>
+        <h2 class="skill-header">Mis habilidades</h2>
         <div class="skills-wrapper">
             <!-- Habilidades en iconos -->
             <div class="first-set animate__animated aniate__pulse">
-                <img src="" alt="" loading="lazy" class="icon icon-card">
-                <img src="" alt="" loading="lazy" class="icon icon-card">
-                <img src="" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/html5.png" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/css3.png" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/boostrap.png" alt="" loading="lazy" class="icon icon-card">
             </div>
             <div class="second-set animate__animated animate__pulse">
-                <img src="" alt="" loading="lazy" class="icon icon-card">
-                <img src="" alt="" loading="lazy" class="icon icon-card">
-                <img src="" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/tailwind.png" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/javascript.png" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/php.png" alt="" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="third-set animate__animated animate__pulse">
+                <img src="assets/icons/laravel.png" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/python.png" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/github.png" alt="" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="fourth-set animate__animated animate__pulse">
+                <img src="assets/icons/mysql.png" alt="" loading="lazy" class="icon icon-card">
+                <img src="assets/icons/elastic.png" alt="" loading="lazy" class="icon icon-card">
             </div>
         </div>
     </section>
 
     <!-- Sección Proyectos -->
     <section class="projects" id="projects">
-        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <h2 class="projects-title">Alguno de mis proyectos</h2>
         <div class="projects-container">
             <div class="project-container project-card">
                 <!-- Imagen del proyecto en la carperta imagenes-->
-                <img src="" alt="" loading="lazy" class="project-pic">
-                <h3 class="project-title">Project 1</h3>
-                <p class="project-details">Descripción del proyecto</p>
-                <a href="#" target="_blank" class="project-link">Check it out!</a>
+                <img src="assets/images/pinterest_screen.JPG" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Clon de Pinterest</h3>
+                <p class="project-details">
+                    Este proyecto es un clon de la interfaz de usuario de Pinterest, creado puramente con HTML5 y CSS3.
+                    <br>
+                    <br>
+                    Se enfoca en replicar la apariencia visual de Pinteres, ofreciendo una experiencia de navegacion similar con un diseño responsive y funcionalidades básicas.
+                </p>
+                <button class="button-check">
+                    <a href="https://pinterestinterfaz.vercel.app/" target="_blank" class="project-link">Check it out!</a>
+                </button>
             </div>
             <div class="project-container project-card">
-                <img src="" alt="" loading="lazy" class="project-pic">
-                <h3 class="project-title">Project 2</h3>
-                <p class="project-details">Descripción del proyecto</p>
-                <a href="#" target="_blank" class="project-link">Check it out!</a>
+                <img src="assets/images/conocezac.JPG" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">Conoce Zacatecas</h3>
+                <p class="project-details">
+                    Página web desarrollada en  HTML5 y CSS3 que destaca las atracciones más llamativas de Zacatecas. Este proyecto tiene como objetivo promover el turismo y la cultura local, presentando información detallada y visualmente atractiva sobre los sitios emblemáticos de la ciudad.
+                </p>
+                <button class="button-check">
+                    <a href="https://conoce-zacatecas.vercel.app/" target="_blank" class="project-link">Check it out!</a>
+                </button>
             </div>
             <div class="project-container project-card">
-                <img src="" alt="" loading="lazy" class="project-pic">
-                <h3 class="project-title">Project 3</h3>
-                <p class="project-details">Descripción del proyecto</p>
-                <a href="#" target="_blank" class="project-link">Check it out!</a>
+                <img src="assets/images/sgeo.JPG" alt="" loading="lazy" class="project-pic">
+                <h3 class="project-title">SGEO</h3>
+                <p class="project-details">
+                    
+                    Página web que muestra el funcionamiento del software "Equipo para la Gestión de Expediciones Oceanográficas" como parte del proyecto CIGoM, utilizando Laravel y Tailwind CSS. 
+                    <br>
+                    <br>
+                    La página web muestra la información recolctada en el proyecto CIGoM.
+                </p>
+                <button class="button-check">
+                    <a href="https://sgeo.cicese.mx/" target="_blank" class="project-link">Check it out!</a>
+                </button>
             </div>
         </div>
     </section>
@@ -93,19 +131,30 @@
     <!-- Sección Contacto -->
     <!-- Sección de Redes Sociales -->
     <div class="socials">
-        <a href="https://github.com/ACarminaLlamas" target="_blank"><img src="assets/icons/git.gif" alt="GitHub" loading="lazy" class="socicon"></a>
-        <a href="https://www.linkedin.com/in/acarminallamas/" target="_blank"><img src="assets/icons/linked.gif" alt="LinkedIn" loading="lazy" class="socicon"></a>
-        <a href="https://www.instagram.com/acarminallamas/"><img src="assets/icons/instragram.gif" alt="Instagram" loading="lazy" class="socicon"></a>
+        <a href="https://github.com/ACarminaLlamas" target="_blank">
+            <img src="assets/images/logo-light.svg" alt="" class="soc-back">
+            <img src="assets/icons/github.png" alt="GitHub" loading="lazy" class="socicon">
+        </a>
+        <a href="https://www.linkedin.com/in/acarminallamas/" target="_blank">
+            <img src="assets/images/logo-light.svg" alt="" class="soc-back">
+            <img src="assets/icons/linkedin.png" alt="LinkedIn" loading="lazy" class="socicon">
+        </a>
     </div>
 
     <!-- Sección Footer -->
+
+    <div class="footer-fig">
+        <img src="assets/images/cta-illustration-dark.svg" alt="" class="footer-fig">
+    </div>
     <footer>
         <p>Built with &#x2661; by <a href="https://www.linkedin.com/in/acarminallamas/" target="_blank">A. Carmina Llamas-Valenzuela</a></p>
+        <p><a href="https://iconos8.es/icons" target="_blank">Iconos</a></p>
     </footer>
 
     <!--scroll to top -->
     <i class="scroll-up" id="scroll-up">
-        <img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow">
+        <img src="assets/images/logo-light.svg" alt="" class="soc-back-arrow">
+        <img src="assets/icons/circle.png" class="socicon up-arrow">
 
     </i>
     <!-- Website scripts -->
